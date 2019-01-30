@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { OneFormComponent } from './one-form/one-form.component';
+import { MultiFormComponent } from './multi-form/multi-form.component';
 
 import { MaterialModule } from './material.module';
 
@@ -13,7 +14,8 @@ import { MaterialModule } from './material.module';
   declarations: [
     AppComponent,
     HeaderComponent,
-    OneFormComponent
+    OneFormComponent,
+    MultiFormComponent
   ],
   imports: [
     BrowserModule,
