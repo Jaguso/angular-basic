@@ -1,8 +1,16 @@
 import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
+
 
 @Component({
   selector: 'reactive-form',
   templateUrl: './reactive-form.component.html',
   styleUrls: ['./reactive-form.component.css']
 })
-export class ReactiveFormComponent { }
+export class ReactiveFormComponent {
+  name = new FormControl('');
+
+  updateName() {
+    this.name.setValue('Nancy');
+  }
+}
