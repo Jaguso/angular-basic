@@ -10,7 +10,9 @@ import { MultiFormComponent } from './multi-form/multi-form.component';
 import { RandomComponent } from './random/random.component';
 import { BottomComponent } from './bottom/bottom.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { MaterialModule } from './material.module';
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
