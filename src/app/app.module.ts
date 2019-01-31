@@ -9,6 +9,7 @@ import { OneFormComponent } from './one-form/one-form.component';
 import { MultiFormComponent } from './multi-form/multi-form.component';
 import { RandomComponent } from './random/random.component';
 import { BottomComponent } from './bottom/bottom.component';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
@@ -21,7 +22,8 @@ import { MaterialModule } from './material.module';
     OneFormComponent,
     MultiFormComponent,
     RandomComponent,
-    BottomComponent
+    BottomComponent,
+    ReactiveFormComponent
   ],
   imports: [
     BrowserModule,
