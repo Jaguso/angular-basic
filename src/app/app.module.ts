@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { OneFormComponent } from './one-form/one-form.component';
 import { MultiFormComponent } from './multi-form/multi-form.component';
+import { RandomComponent } from './random/random.component';
+import { BottomComponent } from './bottom/bottom.component';
 
 import { MaterialModule } from './material.module';
 
@@ -15,7 +17,9 @@ import { MaterialModule } from './material.module';
     AppComponent,
     HeaderComponent,
     OneFormComponent,
-    MultiFormComponent
+    MultiFormComponent,
+    RandomComponent,
+    BottomComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,11 @@
 .forms {
     margin: 15px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 40px auto;
+    margin-top: 20px;
+}

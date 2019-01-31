@@ -1,5 +1,22 @@
 <div class="forms">
   <h3>Multi Forms</h3>
-  
-
+  <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+    <mat-form-field>
+      <label>Nombre:</label>
+      <textarea
+        matInput
+        name="name"
+        ngModel
+      ></textarea>
+    </mat-form-field>
+    <mat-form-field>
+      <label>Apellido: </label>
+      <textarea
+        matInput
+        name="lastname"
+        ngModel
+      ></textarea>
+    </mat-form-field>
+    <button type="submit" mat-raised-button color="accent">Submit</button>
+  </form>  
 </div>
