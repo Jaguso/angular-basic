@@ -11,6 +11,7 @@ import { MultiFormComponent } from './multi-form/multi-form.component';
 import { RandomComponent } from './random/random.component';
 import { BottomComponent } from './bottom/bottom.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { ReactiveFormGroupComponent } from './reactive-form-group/reactive-form-group.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
@@ -24,7 +25,8 @@ import { MaterialModule } from './material.module';
     MultiFormComponent,
     RandomComponent,
     BottomComponent,
-    ReactiveFormComponent
+    ReactiveFormComponent,
+    ReactiveFormGroupComponent
   ],
   imports: [
     BrowserModule,
