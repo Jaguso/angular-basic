@@ -12,4 +12,8 @@ export class ReactiveFormGroupComponent {
     firstName: new FormControl(''),
     lastName: new FormControl(''),
   });
+
+  onSubmit() {
+    console.warn(this.profileForm.value)
+  }
 }
