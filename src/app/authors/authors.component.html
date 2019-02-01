@@ -1,3 +1,15 @@
-<div>
+<div class="form">
   <h3>This is Authors</h3>
+  <form [formGroup]="authorsForm" (ngSubmit)="onSubmit()">
+    <label>
+      Nombre:
+      <input type="text" formControlName="name">
+    </label>
+    <label>
+      Nacionalidad:
+      <input type="text" formControlName="nationality">
+    </label>
+
+    <button type="submit" [disabled]="!authorsForm.valid">Submit</button>
+  </form>
 </div>
